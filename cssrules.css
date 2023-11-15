@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden; /* Empêcher la barre de défilement horizontale */
+}
+
+.background-image {
+    /* Ajustez le chemin de l'image selon votre structure de fichier */
+    background-image: url('https://i0.wp.com/corporate.comcast.com/images/global-internet-blog.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* L'image reste fixe lors du défilement */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; /* Assurez-vous que l'image est derrière le contenu */
+}
+
+.content {
+    margin: 80px 20px; /* Ajustez la marge selon vos besoins */
+    color: #fff; /* Couleur du texte */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 40px; /* Ajustez l'espacement entre les éléments */
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 35px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
